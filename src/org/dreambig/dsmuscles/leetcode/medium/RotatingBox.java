@@ -54,7 +54,7 @@ public class RotatingBox {
       int r= box.length, c= box[0].length;
 
       for (int rowIdx=0;rowIdx<r; rowIdx++){
-        int empty= c-1;
+        int empty= c-1;// last node
         for (int colIdx=c-1; colIdx>=0;colIdx--){
           // Please note that we just dont need to iterate all, every time
           // 1. If Obstracle found

@@ -95,7 +95,7 @@ public class VanillaLRUCache<K, V> {
             Node<K,V> curr = head;
             System.out.println("\n");
             while(curr !=null){
-                System.out.print(String.format( "[%s] -> ",curr));
+                System.out.printf( "[%s] -> ",curr);
                 curr=curr.next;
             }
             System.out.print("null");

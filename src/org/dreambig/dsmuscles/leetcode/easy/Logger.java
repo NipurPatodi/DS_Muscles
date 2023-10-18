@@ -34,7 +34,7 @@ import java.util.Map;
  */
 public class Logger {
 
-    private Map<String, Integer> logMap;
+    private final Map<String, Integer> logMap;
 
     public Logger() {
       logMap= new HashMap<>();

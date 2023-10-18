@@ -31,8 +31,8 @@ package org.dreambig.dsmuscles.leetcode.medium;
  * hitCounter.getHits(301); // get hits at timestamp 301, return 3.
  */
 public class HitCounter {
-    private int [] hit;
-    private int [] ts;
+    private final int [] hit;
+    private final int [] ts;
     public HitCounter() {
       hit = new int [300];
       ts = new int [300];
